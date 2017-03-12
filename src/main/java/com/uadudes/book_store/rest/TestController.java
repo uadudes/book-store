@@ -5,12 +5,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class TestController
-{
+public class TestController {
 
    @RequestMapping(value = "/test", method = RequestMethod.GET)
-   public String index()
-   {
+   public String index() {
       return "Book-store is responding, hooray!";
    }
 }

@@ -7,12 +7,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @SpringBootTest
 @RunWith(SpringRunner.class)
-public class FirstSpringBootTest
-{
+public class FirstSpringBootTest {
 
    @Test
-   public void test()
-   {
+   public void test() {
       System.out.println("First test completed!");
    }
 }
